@@ -13,6 +13,10 @@ def biseccion():
     fa = f(fun, a)
     fb = f(fun, b)
     
+    if fa*fb > 0:
+        print("Este intervalo no contiene una raíz")
+        return
+    
     while i <= iteraciones:
         p = a + (b-a)/2
         fp = f(fun, p)
