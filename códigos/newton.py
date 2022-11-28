@@ -32,4 +32,4 @@ def newton():
     else: 
         print(x0, " es una raíz con un error de ", error, " en ", iteraciones, " iteraciones")
         
-    
+    newton()

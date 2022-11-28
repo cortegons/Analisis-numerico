@@ -25,4 +25,6 @@ def puntofijo():
         print(aprox, " es una aproximación a una raíz con una tolerancia igual a ", i)
     else:
         print("No se halló ninguna raíz en ", iteraciones, " iteraciones")
-         
+        
+    
+    puntofijo()
